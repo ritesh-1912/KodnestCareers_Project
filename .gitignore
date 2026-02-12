@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Turbo
+.turbo/
+
+# Temporary files
+tmp/
+*.tmp
+
+# PDFs (keep structure, ignore content)
+output/pdf/*
+!output/pdf/.gitkeep
+tmp/pdfs/*
+!tmp/pdfs/.gitkeep
+
+# Database
+*.db
+*.sqlite
+
+# Prisma
+prisma/migrations/*.sql
+!prisma/migrations/.gitkeep
