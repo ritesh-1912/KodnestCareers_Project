@@ -16,22 +16,18 @@ Local-first career management platform built as a modular monolith with worker a
 ```bash
 pnpm install
 ```
-
 2. Copy environment variables:
 ```bash
 cp .env.example .env
 ```
-
 3. Start local infrastructure (Postgres, Redis, Mailpit):
 ```bash
 pnpm docker:up
 ```
-
 4. Run database migrations:
 ```bash
 pnpm db:migrate
 ```
-
 5. Start development servers:
 ```bash
 pnpm dev
